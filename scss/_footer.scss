@@ -1,0 +1,45 @@
+/*Footer*/
+footer{
+    background-color:lightblue ;
+    color: black; 
+    padding: 20px 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    max-width: 800px; 
+    margin: 0 auto;
+    text-align: center;
+}
+
+.redes-sociales{
+padding-bottom: 15px;
+display:flex;
+justify-content:space-around;
+text-align: center;
+ a{
+    text-decoration: none;
+    font-size: 28px;
+    height: 60px;
+    width: 60px; 
+    text-align: center;
+    background: #314652;
+    color:white;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0,0,0, .5);
+    transition: all .4s ease-in-out; 
+    display: flex;
+    justify-content: center;
+    line-height: 60px;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+}
+.copy{
+    font-size: 1,4em;
+    margin-top: 10px;
+}

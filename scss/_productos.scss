@@ -1,0 +1,10 @@
+.titulo-productos{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crea 3 columnas de igual ancho */
+    grid-gap: 20px; /* Espacio entre los elementos */
+  }
+  
