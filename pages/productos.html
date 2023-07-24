@@ -47,17 +47,20 @@
               </nav>
         </header>
         <main>
-          <div class="filter">  
-          <!--filtrar productos por rango de precios -->
-          <form onsubmit="event.preventDefault(); filtrarProductos(parseInt(document.getElementById('precioMinimo').value), parseInt(document.getElementById('precioMaximo').value))">
-            Precio mínimo: <input type="number" id="precioMinimo" required>
-            Precio máximo: <input type="number" id="precioMaximo" required>
-            <button type="submit">Filtrar</button>
-          </form>
-          
-          <!-- búsqueda de productos por nombre -->
-          <input type="text" id="nombreProducto" placeholder="Buscar por nombre">
-          <button onclick="buscarProducto(document.getElementById('nombreProducto').value)">Buscar</button>
+            <!-- Carrito de compras -->
+  <div class="cart" onclick="toggleCart()">
+    <img src="/img/vecteezy_shopping-cart-icon-shopping-basket-on-transparent_19787018_516.png" alt="Carrito de compras" style="width: 40px; height: 30px;">
+    <span class="item-count" id="cartItemCount">0</span>
+  </div>
+
+  <!-- Contenedor del carrito desplegable -->
+  <div class="cart-dropdown" id="cartDropdown">
+    <h2>Carrito de compras</h2>
+    <ul id="cartItems">
+      <!-- Los elementos del carrito se añadirán dinámicamente aquí -->
+    </ul>
+  </div>
+
           
           <h1 class="titulo-productos">Productos</h1>
           <div id="product-container" class="grid-container">
