@@ -1,0 +1,20 @@
+
+#main-pago{
+  background-color: rgb(5, 146, 211);
+  padding-bottom: 350px;
+}
+
+
+/* centrar el resumen  */
+#orderSummary {
+    text-align: center;
+    margin-top: 20px;
+    .product-summary{
+      margin: 60px 0px;
+    }
+  }
+  
+  .center-button {
+    display: block;
+    margin: 50px auto;
+  }

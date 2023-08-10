@@ -1,0 +1,8 @@
+{
+    "1": { "name": "Arroz Oro", "price": 20 },
+    "2": { "name": "Coca Cola 2.25 L", "price": 15 },
+    "3": { "name": "Fideos Molto", "price": 18 },
+    "4": { "name": "Galletas Melba", "price": 10 },
+    "5": { "name": "Galletas Oreo", "price": 14 },
+    "6": { "name": "Salsa de tomate Salsati", "price": 22 }
+  }
